@@ -1,0 +1,50 @@
+/* Operation.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.operation {
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f8ff; /* Pastel blue background */
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #3498db; /* Pastel blue color */
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff; /* White background */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #ff6b6b; /* Pastel pink color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e55353; /* Slightly darker pastel pink for hover effect */
+}
+
+p {
+  font-size: 1.2em;
+  color: #333;
+  margin-top: 20px;
+}

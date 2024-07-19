@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 import '../Operation.css';
 
-function Addition() {
+function Subtraction() {
   const [num1, setNum1] = useState('');
   const [num2, setNum2] = useState('');
   const [result, setResult] = useState(null);
 
   const handleCalculate = () => {
-    setResult(parseFloat(num1) + parseFloat(num2));
+    setResult(parseFloat(num1) - parseFloat(num2));
   };
 
   return (
     <div className="operation">
-      <h2>Addition</h2>
+      <h2>Subtraction</h2>
       <input
         type="number"
         value={num1}
@@ -31,4 +31,4 @@ function Addition() {
   );
 }
 
-export default Addition;
+export default Subtraction;

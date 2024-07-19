@@ -1,0 +1,43 @@
+/* Home.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.landing-page {
+  text-align: center;
+  padding: 50px;
+  background-color: #fdf6f6; /* Pastel pink background */
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+h1 {
+  font-size: 3em;
+  color: #ff6b6b; /* Pastel pink color */
+  margin-bottom: 20px;
+}
+
+.operation-card {
+  display: inline-block;
+  margin: 15px;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.operation-card:hover {
+  transform: scale(1.05);
+}
+
+.operation-card a {
+  text-decoration: none;
+  color: #3498db; /* Pastel blue color */
+  font-size: 1.5em;
+}
+
+.operation-card a:hover {
+  color: #2980b9; /* Slightly darker pastel blue for hover effect */
+}
